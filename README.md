@@ -17,7 +17,7 @@ spaces_add(
 )
 
 checkout_add_repo(
-    "serve-rules",
+    "@docs",
     url = "https://github.com/work-spaces/serve-rules/",
     rev = "main",
 )
@@ -26,7 +26,7 @@ checkout_add_repo(
 To serve the rules run:
 
 ```sh
-spaces run //serve-rules:serve
+spaces run //@docs:serve
 ```
 
 Then open your web browser to [localhost:1313](http://localhost:1313).
