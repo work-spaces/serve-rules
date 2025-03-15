@@ -31,7 +31,7 @@ run_add_exec(
     command = "spaces",
     args = [
         "inspect", 
-        "--markdown={}/content/workspace.md".format(workspace_get_path_to_checkout())
+        "--markdown={}/content/docs/rules.md".format(workspace_get_path_to_checkout())
     ],
     env = {
         "PATH": "/Volumes/Code/workspace/.local/bin"
