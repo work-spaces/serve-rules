@@ -32,10 +32,7 @@ run_add_exec(
     args = [
         "inspect", 
         "--markdown={}/content/docs/rules.md".format(workspace_get_path_to_checkout())
-    ],
-    env = {
-        "PATH": "/Volumes/Code/workspace/.local/bin"
-    }
+    ]
 )
 
 run_add_exec(
